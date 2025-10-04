@@ -1,0 +1,15 @@
+<Context>
+
+  <Resource 
+      name="jdbc/book_store"
+      auth="Container"
+      type="javax.sql.DataSource"
+      maxActive="20"
+      maxIdle="5"
+      maxWait="10000"
+      username="YOUR_DB_USERNAME"
+      password="YOUR_DB_PASSWORD"
+      driverClassName="com.mysql.cj.jdbc.Driver"
+      url="jdbc:mysql://localhost:3306/book_store?useSSL=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true" />
+
+</Context>
