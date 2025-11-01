@@ -6,14 +6,12 @@ public class Book {
 	private int id;
 	private double price;
 	public Book(String author, String title, int id, double price) {
-		super();
 		this.author = author;
 		this.title = title;
 		this.id = id;
 		this.price = price;
 	}
 	public Book(String author, String title, double price) {
-		super();
 		this.author = author;
 		this.title = title;
 		this.price = price;

@@ -45,7 +45,7 @@ public class BookstoreController extends HttpServlet {
 			String req = request.getParameter("command");
 			
 			if (req == null) {
-				listBooks(request, response);
+				req="LIST";
 			}
 			
 			switch (req) {
